@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 100%;
+    /* border-radius: 5px; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo img{
+    height: 180px;
+    width: 300px;
+    margin-right: 200px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 40px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.response{
+    padding: 40px;
+    /* max-width: 100%; */
+    min-height: 400px;
+    margin: 0;
+    background: linear-gradient(135deg, orange, skyblue);
+    border-radius: 15px;
+    margin: 7%;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+input{
+    height: 35px;
+    width: 100%;
+    border: 2px solid black;
+    font-size: 16px;
+    padding-left: 2%;
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
+form textarea{
+    height: 150px;
+    resize: vertical;
+    width: 100%;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 4px 2%;
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
+button{
+    height: 45px;
+    width: 100%;
+    cursor:pointer;
+    margin: 2% 0;
+    border: 2px solid black;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 4px 2%;
+    background-color: royalblue;
+    border-radius: 2px;
+}
+footer {
+    background: linear-gradient(135deg, #4a90e2, #f06);
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+}

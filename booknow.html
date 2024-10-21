@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roaming Routes - Book Now</title>
+    <link rel="stylesheet" href="booknow.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Logo_maker_project__1_-removebg-preview.png" alt="">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="packages.html">Travel Packages</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="booking-container">
+        <h2>Book Your Package</h2>
+        <form action="#success">
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="mobile-number">Mobile Number</label>
+                <input type="tel" id="mobile-number" name="mobile-number" placeholder="Enter your mobile number" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="package">Select Package</label>
+                <select id="package" name="package" required>
+                    <option value="" disabled selected>Select your required package</option>
+                    <option value="beach-getaway">Beach Getaway - $499</option>
+                    <option value="mountain-adventure">Mountain Adventure - $799</option>
+                    <option value="city-explorer">City Explorer - $699</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="departure-date">Departure Date</label>
+                <input type="date" id="departure-date" name="departure-date" required>
+            </div>
+            <div class="form-group">
+                <label for="return-date">Return Date</label>
+                <input type="date" id="return-date" name="return-date" required>
+            </div>
+            <div class="form-group">
+                <label for="special-requests">Special Requests</label>
+                <input type="text" id="special-requests" name="special-requests" placeholder="Any special requests? (Optional)">
+            </div>
+            <button type="submit" class="book-now-btn">Confirm Booking</button>
+        </form>
+
+        <div id="success" class="success-notification">
+            <span>&#10004;</span> Booking Successful! You will soon receive a confirmation email.
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Roaming Routes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
